@@ -52,7 +52,7 @@ namespace TestAPI_pipeline.Controllers
             .ToArray();
         }
 
-        [HttpGet("GetWeatherForecast_testing")]
+        [HttpGet("GetWeatherForecast_testing3")]
         public IEnumerable<WeatherForecast> Get3()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
